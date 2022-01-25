@@ -53,7 +53,7 @@ table {
 
 *{
     box-sizing: border-box;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
     max-width: 100%;
 }
 
@@ -142,6 +142,24 @@ nav a{
 }
 
 /* Fire styling */
-.fire {
-    
+.vitals div {
+    width: 30%;
+    margin: 5% auto;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.background-img {
+    background-image: url('assets/footer_img.jpg');
+    height: 40vh;
+    width: 100%;
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+footer {
+    background-color: #F9E7DC;
 }
